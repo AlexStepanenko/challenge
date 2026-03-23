@@ -1,5 +1,16 @@
 # frozen_string_literal: true
 
+require "csv"
+require_relative "product_classifier"
+require_relative "taxes"
+require_relative "taxes/base"
+require_relative "taxes/basic_sales"
+require_relative "taxes/import_duty"
+require_relative "taxeable"
+require_relative "order"
+require_relative "order_item"
+require_relative "invoice"
+
 class ReceiptGenerator
   def call(file_path)
     order = Order.new

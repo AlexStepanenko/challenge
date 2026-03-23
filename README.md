@@ -6,9 +6,9 @@ A Ruby program that reads shopping baskets and prints receipts with correct sale
 
 You can run the program like this:
 ```bash
-ruby -r ./app -e "App.new('spec/fixtures/input_1.csv').run"
-ruby -r ./app -e "App.new('spec/fixtures/input_2.csv').run"
-ruby -r ./app -e "App.new('spec/fixtures/input_3.csv').run"
+ruby app.rb spec/fixtures/input_1.csv
+ruby app.rb spec/fixtures/input_2.csv
+ruby app.rb spec/fixtures/input_3.csv
 ```
 
 ## What it does

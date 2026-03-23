@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "spec_helper"
-require_relative "../app"
+require_relative "../lib/receipt_generator"
 
 describe Invoice do
   describe "Receipt generation from inputs" do
